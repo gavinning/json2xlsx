@@ -1,7 +1,7 @@
 {
-  "name": "json2xlsx",
+  "name": "json2xlsx-copy",
   "description": "Pipe JSON to Excel spreadsheet",
-  "url": "http://github.com/dpweb/json2xlsx/",
+  "url": "https://github.com/gavinning/json2xlsx",
   "keywords": [
     "util",
     "nodejs"
@@ -15,11 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dpweb/json2xlsx.git"
+    "url": "https://github.com/gavinning/json2xlsx.git"
   },
   "main": "json2xlsx.js",
-  "bin": {
-    "json2xlsx": "json2xlsx.js"
-  },
-  "version": "0.1.5"
+  "version": "0.1.8"
 }

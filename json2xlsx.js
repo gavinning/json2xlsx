@@ -1,10 +1,10 @@
-#!/usr/bin/env node
+
 
 var xlsx = require('xlsx'),
     fs = require('fs');
 
-if (process.argv[2])
-  readXLSX(process.argv[2]);
+// if (process.argv[2])
+//   readXLSX(process.argv[2]);
 
 function readXLSX(filename) {
   return require('xlsx').readFile(filename).Sheets;
